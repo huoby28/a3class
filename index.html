@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3A Class(Just Information For A3)</title>
+</head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <div id="passwordModal">
+        <div id="passwordBox">
+            <input type="password" id="passwordInput" placeholder="Masukkan sandi">
+            <button id="togglePassword">
+                <i class="bi bi-eye-slash-fill"></i>
+            </button>
+            <button id="submitPassword">Submit</button>
+        </div>
+    </div>
+    <div class="navbar">
+        <div class="nav-title">
+            <h3>A3 Class</h3>
+        </div>
+        <div class="nav-link">
+            <a href="#tugas">Tugas</a>
+            <a href="#jadwal">Jadwal</a>
+            <a href="#">Mahasiswa</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="info" id="tugas">
+            <div class="title-info">
+                <h2>Daftar Tugas</h2>
+                <h4>2</h4>
+            </div>
+            <div class="information">
+                <table width="95%" cellspacing="0">
+                    <tr>
+                        <td width="5%"><b>No</b></td>
+                        <td width="40%"><b>Hari, Tanggal</b></td>
+                        <td width="20%"><b>Mata Kuliah</b></td>
+                        <td width="*"><b>Tugas</b></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Senin, 30 September</td>
+                        <td>Biologi</td>
+                        <td>Quiz Materi Bab 1</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Selasa, 1 October</td>
+                        <td>Character Building</td>
+                        <td>Carilah 1 kasus korupsi, sebutkan kerugiannya dan cara mengatasinya!</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="info" id="jadwal">
+            <div class="title-info">
+                <h2>Jadwal Perkuliahan</h2>
+            </div>
+            <div class="information">
+                <table width="95%" cellspacing="0">
+                    <tr>
+                        <td width="20%"><b>Hari</b></td>
+                        <td width="35%"><b>Mata Kuliah</b></td>
+                        <td width="35%"><b>Jam</b></td>
+                        <td width="10%">Ruang</td>
+                    </tr>
+                    <tr>
+                        <td>Senin</td>
+                        <td>Biologi</td>
+                        <td>08.00 - 09.40</td>
+                        <td>319</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Selasa</td>
+                        <td>Character Building</td>
+                        <td>08.00 - 09.40</td>
+                        <td>412</td>
+                    </tr>
+                    <tr>
+                        <td>Ekologi Industri</td>
+                        <td>13.30 - 15.10</td>
+                        <td>319</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Rabu</td>
+                        <td>Kewarganegaraan</td>
+                        <td>09.45 - 11.25</td>
+                        <td>318</td>
+                    </tr>
+                    <tr>
+                        <td>Kalkulus I</td>
+                        <td>16.15 - 18.45</td>
+                        <td>426</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Kamis</td>
+                        <td>Pemograman</td>
+                        <td>08.00 - 10.30</td>
+                        <td>322</td>
+                    </tr>
+                    <tr>
+                        <td>Fisika Dasar</td>
+                        <td>16.15 - 18.45</td>
+                        <td>419</td>
+                    </tr>
+                    <tr>
+                        <td>Jum'at</td>
+                        <td>Kimia</td>
+                        <td>13.30 - 16.00</td>
+                        <td>426</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
