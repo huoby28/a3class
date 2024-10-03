@@ -1,7 +1,9 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #F5EFFF;
 }
 
 * {
@@ -69,7 +71,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgba(255, 255, 255, 0.5);
+    background: #A594F9;
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
@@ -113,6 +115,7 @@ body {
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
     margin-bottom: 20px;
+    background: #E5D9F2;
 }
 
 .title-info {
@@ -141,4 +144,8 @@ td {
     height: 30px;
     border-bottom: 1px solid;
     padding: 5px;
+}
+
+td a{
+    color: rgb(84, 84, 84);
 }
